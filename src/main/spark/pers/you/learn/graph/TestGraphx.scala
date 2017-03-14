@@ -1,4 +1,4 @@
-package pers.you.spark.graph
+package pers.you.learn.graph
 
 import org.apache.spark.graphx.{Edge, Graph}
 import org.apache.spark.{SparkConf, SparkContext}

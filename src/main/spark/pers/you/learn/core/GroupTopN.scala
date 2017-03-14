@@ -1,4 +1,4 @@
-package pers.you.spark.core
+package pers.you.learn.core
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}

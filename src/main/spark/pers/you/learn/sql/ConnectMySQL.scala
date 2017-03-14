@@ -1,4 +1,4 @@
-package pers.you.spark.sql
+package pers.you.learn.sql
 
 import org.apache.spark.sql.types.{IntegerType, StringType, StructField, StructType}
 import org.apache.spark.sql.{Row, SQLContext}
