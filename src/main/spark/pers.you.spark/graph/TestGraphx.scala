@@ -1,4 +1,4 @@
-package pers.you.spark.test
+package pers.you.spark.graph
 
 import org.apache.spark.graphx.{Edge, Graph}
 import org.apache.spark.{SparkConf, SparkContext}
@@ -28,7 +28,7 @@ object TestGraphx {
       Edge(4L,3L,"daughter-in-law")
     ))
     val default=("I","son of family")
-    val graph:Graph[(String,String),String]=Graph(users,relations,default);
+    val graph:Graph[(String,String),String]=Graph(users,relations,default)
     graph.vertices.filter{case(id,(role,comment))=>comment=="son of family"}.collect().foreach(println(_))
     graph.triplets.map(node=>{node.srcAttr._1 + " is the " + node.attr + " of " +node.dstAttr._1}).collect().foreach(println(_))
 

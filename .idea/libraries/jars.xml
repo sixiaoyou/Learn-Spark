@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../环境部署/安装包/spark-1.5.2-bin-hadoop2.6/lib/spark-assembly-1.5.2-hadoop2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../环境部署/安装包/mysql-connector-java-5.1.7-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../环境部署/安装包/spark-1.5.2-bin-hadoop2.6/lib/datanucleus-rdbms-3.2.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../环境部署/安装包/spark-1.5.2-bin-hadoop2.6/lib/spark-assembly-1.5.2-hadoop2.6.0.jar!/" />
+    </SOURCES>
+  </library>
+</component>
